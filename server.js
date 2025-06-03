@@ -7,10 +7,11 @@ dotenv.config();
 
 const app = express();
 app.use(cors({
-  origin: 'https://fluentflow.vercel.app',
+  origin: 'https://frontend-fluentflow-vd2w.vercel.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
+
 
 app.use(express.json());
 
